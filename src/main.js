@@ -3,7 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store/index";
 import "@/permission";
-
+// main.js
+require('./../mock');
 Vue.config.productionTip = false;
 
 

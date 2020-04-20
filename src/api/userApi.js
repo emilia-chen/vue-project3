@@ -31,6 +31,12 @@ const user = {
         token
       }
     });
+  },
+  testMock(){
+     return request({
+      url: "http://localhost:8080/api/user.json",
+      method: "get",
+    });   
   }
 };
 export default user;

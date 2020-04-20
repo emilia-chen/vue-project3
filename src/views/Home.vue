@@ -21,9 +21,16 @@
 
 <script>
 import { mapGetters } from "vuex";
+//import userApi from "@/api/userApi";
+import axios from "axios";
 export default {
   computed: {
     ...mapGetters(["userInfo"])
+  },
+ mounted() {
+   axios.get('/parameter/query').then(res=>{
+     console.log('res',res)
+    })
   },
   methods: {
     userLogout() {
