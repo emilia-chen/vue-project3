@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App. "/>
-    <a href="https://vue-project3-emilia-chen.vercel.app" />
+ 
   </div>
 </template>
 
